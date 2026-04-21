@@ -4,136 +4,151 @@
         <meta charset="utf-8">
         <title>49ERS Team page</title>
         <meta name="description" content="">
-        <meta>
-        <meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Daniel Cox">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body class="dark">
-        <header>
-          <h1>49ers Team page</h1>
-          <nav>
-            <ul>
-                <li><a href = "#merch">MERCH</a></li>               
-                <li><a href = "#quote">THE FAITHFUL</a></li>
-                <li><a href = "#formSect">NEWS</a></li>
-                <li><a href = "#game">WIN A COUPON!</a></li>
-                <li><button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff" class="icon icon-tabler icons-tabler-filled icon-tabler-sun-high"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 19a1 1 0 0 1 1 1v2a1 1 0 0 1 -2 0v-2a1 1 0 0 1 1 -1m-4.95 -2.05a1 1 0 0 1 0 1.414l-1.414 1.414a1 1 0 1 1 -1.414 -1.414l1.414 -1.414a1 1 0 0 1 1.414 0m11.314 0l1.414 1.414a1 1 0 0 1 -1.414 1.414l-1.414 -1.414a1 1 0 0 1 1.414 -1.414m-5.049 -9.836a5 5 0 1 1 -2.532 9.674a5 5 0 0 1 2.532 -9.674m-9.315 3.886a1 1 0 0 1 0 2h-2a1 1 0 0 1 0 -2zm18 0a1 1 0 0 1 0 2h-2a1 1 0 0 1 0 -2zm-16.364 -6.778l1.414 1.414a1 1 0 0 1 -1.414 1.414l-1.414 -1.414a1 1 0 0 1 1.414 -1.414m14.142 0a1 1 0 0 1 0 1.414l-1.414 1.414a1 1 0 0 1 -1.414 -1.414l1.414 -1.414a1 1 0 0 1 1.414 0m-7.778 -3.222a1 1 0 0 1 1 1v2a1 1 0 0 1 -2 0v-2a1 1 0 0 1 1 -1" /></svg></button></li>
-            </ul>
-          </nav>          
-        </header>
-        <main>
-            <img src="Assets\49ers stadium 2.jpg" alt="Photo of 49ers Stadium " id = "mainphoto">
-            <section id = "quote">  
-                <h2>Message to the Faithful</h2>
-                <h3 >From the 49ers Organization</h3>
-                <p>"To our faithful fans: the passion, loyalty, and support you bring to every one of our games lays out the Foundation our entire organization is built on. This 2026 season we remain focus on our journey in resilience, excellence and bringing home another championship to the bay. Thank you for staying forever FAITHFUL."</p>
-                <ul id="homeSchedule">
-                    <li>Home games:</li>
-                    <li>Arizona Cardinals</li>
-                    <li>Los Angeles Rams</li>
-                    <li>Seattle Seahawks</li>
-                    <li>Denver Broncos</li>
-                    <li>Las Vegas Raiders</li>
-                    <li>Philadelphia Eagles</li>
-                    <li>Washington Commanders</li>
-                    <li>Miami Dolphins</li>
-                    <li>Minnesota Vikings</li>
-                </ul>
-                <ul id="awaySchedule">
-                    <li>Away games:</li>
-                    <li>Arizona Cardinals</li>
-                    <li>Los Angeles Rams</li>
-                    <li>Seattle Seahawks</li>
-                    <li>Dallas Cowboy</li>
-                    <li>Kansas City Chiefs</li>
-                    <li>Los Angeles Chargers</li>
-                    <li>New York Giants</li>
-                    <li>Atlanta Falcons</li>
-                </ul>   
-            </section>
-            <section id = "merch">
-                <h2>Merch on The Official 49er Team Shop</h2>
-                <section id = "George Kittle T-Shirt" class="active">
-                    <h3>George Kittle T-Shirt</h3>
-                    <img src="Assets\Product 1.webp" alt="Photo of Tight End George Kittle catching the ball of his 50th touchdown.">
-                    <p>Unisex T-shirt San Francisco 49ers Tight End George Kittle catching the ball of his 50th touchdown.</p>
-                </section>
-                <section id="Brock Purdy Official Jersey" class= "hidden">
-                    <h3>Brock Purdy Official Jersey</h3>
-                    <img src="Assets\product 2.jpg"  alt="Photo of NFL jersey, front and back of 49er quarterback brock Purdy.">
-                    <p>Men's Nike Brock Purdy Black San Francisco 49ers 2025 Rivalries Collection Limited Jersey</p>
-                </section>
-                <section id="49er NFL Replica Helmet" class= "hidden">
-                    <h3>49er NFL Replica Helmet</h3>
-                    <img src="Assets\product 3.avif"  alt="Photo of Gold NFL Replica Speed helmet, with 49er Decal">
-                    <p>San Francisco 49er NFL replica Riddle speed helmet </p>
-                </section>
-                <section id="49er Hat" class= "hidden">
-                    <h3>49er Hat</h3>
-                    <img src="Assets\Product 4.webp"  alt="photo of New Era Black San Francisco 49ers Fitted Hat">
-                    <p>New Era Black San Francisco 49ers Fitted Hat</p>
-                </section>
-                
-                <section id="buttons">
-                    <button id="product1">George Kittle T-Shirt</button>
-                    <button id="product2">Brock Purdy Official Jersey</button>
-                    <button id="product3">49er NFL Replica Helmet</button>
-                    <button id="product4">49er Hat</button>
-                </section>
-            </section>
-            <section id = "formSect">
-                <h2 >Sign up for 49er news</h2>
-                <form id="signUp">
-                    <label for="name">Full Name
-                        <input type="text" autocomplete="name" required>
-                    </label>
-                    <label for="phone">phone
-                        <input for="phone" autocomplete="tel" required>
-                    </label>
-                    <label for="email">Email
-                        <input for="email" autocomplete ="email" required>
-                    </label>
-                    <fieldset>
-                        <legend>Preferred method of notification</legend>
-                        <label for="phone" class = "radio">
-                            <span class="radio_input">
-                            <input id="phone" type="radio" name="contact" value="Phone">
-                            <span class="radio_control"></span>
-                            </span>
-                            <span class="radio_label">Phone</span>
-                        </label>
-                        <label for="email" class = "radio">
-                            <span class="radio_input"></span>
-                        <input id="email" type="radio" name="contact" value="email">
-                        <span class="radio_control"></span>
-                        </span>
-                        <span class="radio_label">Email</span>
-                    </label>
-                    </fieldset>
-                    <label for="comments">Feedback/Suggestions</label>
-                    <textarea id="comments"></textarea>
-                    <input type="submit" id="mySubmit">
-                </form>
-                <p>Be the first to know the latest news updates on the draft, players, games, and other related news to the 49ERS. Fill out this form and sign up for free today! We would also love to hear your feedback and suggestions on our updates, tell us what you'd like to see in 49ers News!</p>
-                <img src="Assets\George KIttle, info section photo.jpg" alt="George kittle posing with three fingers pointed down">
-            </section>
-            <section id = "gameSect">
-            <div>
-                <h2 >Game</h2>
-               <form id = "game">
-				<label for="numGuess">Enter a Number Between 1 and 10:</label>
-				<span class="message">Please enter a number from 1 to 10</span>
-				<input type="number" name="numGuess" id="numGuess">
-				<input type="submit" name="guessGame" id="guessGame" value="Play the Game!">
-			</form>
-            <h3>Guess a Number!</h3>
-				<p id="display">Try to win a 25% off coupon for the 49er team shop right here! Take a guess between 1-10, guess the right number and win the coupon!</p>
-				<p id="gameOutput">This is where the random number and user guess would display, along with a message about whether they won or not.</p>
-            </div>
-            </section>
-        </main>
-        <footer>
-        </footer>
-    </body>
+    
+<body class="dark">
+  <header>
+    <img src="Assets\San_Francisco_49ers_logo.svg.png" alt="49ers logo" id="logo">
+    <h1 class = hidden>49ers Team page</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+          <li><a href="#merch">MERCH</a></li>               
+          <li><a href="#quote">THE FAITHFUL</a></li>
+          <li><a href="#formSect">NEWS</a></li>
+          <li><a href="#game">WIN A COUPON!</a></li>
+          <li><button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff" class="icon icon-tabler icons-tabler-filled icon-tabler-sun-high"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 19a1 1 0 0 1 1 1v2a1 1 0 0 1 -2 0v-2a1 1 0 0 1 1 -1m-4.95 -2.05a1 1 0 0 1 0 1.414l-1.414 1.414a1 1 0 1 1 -1.414 -1.414l1.414 -1.414a1 1 0 0 1 1.414 0m11.314 0l1.414 1.414a1 1 0 0 1 -1.414 1.414l-1.414 -1.414a1 1 0 0 1 1.414 -1.414m-5.049 -9.836a5 5 0 1 1 -2.532 9.674a5 5 0 0 1 2.532 -9.674m-9.315 3.886a1 1 0 0 1 0 2h-2a1 1 0 0 1 0 -2zm18 0a1 1 0 0 1 0 2h-2a1 1 0 0 1 0 -2zm-16.364 -6.778l1.414 1.414a1 1 0 0 1 -1.414 1.414l-1.414 -1.414a1 1 0 0 1 1.414 -1.414m14.142 0a1 1 0 0 1 0 1.414l-1.414 1.414a1 1 0 0 1 -1.414 -1.414l1.414 -1.414a1 1 0 0 1 1.414 0m-7.778 -3.222a1 1 0 0 1 1 1v2a1 1 0 0 1 -2 0v-2a1 1 0 0 1 1 -1" /></svg></button></li>
+      </ul>
+    </nav>          
+  </header>
+  
+  <main>
+      <img src="Assets\49ers stadium 2.jpg" alt="Photo of 49ers Stadium" id="mainphoto">
+      <section id="quote">  
+        <h2>Message to the Faithful</h2>
+        <p><strong>From the 49ers Organization</strong></p>
+        <p>"To our faithful fans: the passion, loyalty, and support you bring to every one of our games lays out the Foundation our entire organization is built on. This 2026 season we remain focus on our journey in resilience, excellence and bringing home another championship to the bay. Thank you for staying forever FAITHFUL."</p>
+          <ul id="homeSchedule">
+            <li><strong>Home games:</strong></li>
+            <li>Arizona Cardinals</li>
+            <li>Los Angeles Rams</li>
+            <li>Seattle Seahawks</li>
+            <li>Denver Broncos</li>
+            <li>Las Vegas Raiders</li>
+            <li>Philadelphia Eagles</li>
+            <li>Washington Commanders</li>
+            <li>Miami Dolphins</li>
+            <li>Minnesota Vikings</li>
+          </ul>
+          <ul id="awaySchedule">
+            <li><strong>Away games:</strong></li>
+            <li>Arizona Cardinals</li>
+            <li>Los Angeles Rams</li>
+            <li>Seattle Seahawks</li>
+            <li>Dallas Cowboy</li>
+            <li>Kansas City Chiefs</li>
+            <li>Los Angeles Chargers</li>
+            <li>New York Giants</li>
+            <li>Atlanta Falcons</li>
+          </ul>   
+      </section>
+      <section id="merch">
+          <h2>Merch on The Official 49er Team Shop</h2>
+          <section id ="GeorgeKittleT-Shirt" class="active">
+              <h3>George Kittle T-Shirt</h3>
+              <img src="Assets\Product 1.webp" alt="Photo of Tight End George Kittle catching the ball of his 50th touchdown.">
+              <p>Unisex T-shirt San Francisco 49ers Tight End George Kittle catching the ball of his 50th touchdown.</p>
+              <div id="buy">
+            <button><a>BUY NOW</a></button>
+          </div>
+          </section>
+          <section id="BrockPurdyOfficialJersey" class="hidden">
+              <h3>Brock Purdy Official Jersey</h3>
+              <img src="Assets\product 2.jpg"  alt="Photo of NFL jersey, front and back of 49er quarterback brock Purdy.">
+              <p>Men's Nike Brock Purdy Black San Francisco 49ers 2025 Rivalries Collection Limited Jersey</p>
+                <div id="buy">
+                <button><a>BUY NOW</a></button>
+                </div>
+          </section>
+          <section id="49erNFLReplicaHelmet" class="hidden">
+              <h3>49er NFL Replica Helmet</h3>
+              <img src="Assets\product 3.avif"  alt="Photo of Gold NFL Replica Speed helmet, with 49er Decal">
+              <p>San Francisco 49er NFL replica Riddle speed helmet </p>
+              <div id="buy">
+              <button><a>BUY NOW</a></button>
+              </div>
+          </section>
+         
+          
+        <!-- This should be a div, not a section -->
+          <div id="buttons">
+              <button id="product1">George Kittle T-Shirt</button>
+              <button id="product2">Brock Purdy Official Jersey</button>
+              <button id="product3">49er NFL Replica Helmet</button>
+          </div>
+      </section>
+      <section id="formSect">
+          <h2 >Sign up for 49er news</h2>
+        
+          <!-- 
+              Be sure to include the action and method attributes to the form and to set them 
+              For inputs, you need name and id attributes
+              Your inputs have for attributes, and that attribute is used on labels to associate them with an input and thr for attribute should match the ID of the input it labels
+
+          -->
+          <form id="signUp" action="https://wp.zybooks.com/form-viewer.php" method="POST">
+              <label for="name">Full Name</label>
+                  <input type="text" autocomplete="name" id="name" name="full_name" required>
+              
+              <label for="phone">phone</label>
+                  <input type="tel" autocomplete="tel" id="phone" name="phone" required>
+
+              <label for="email">Email</label>
+                  <input type="email" autocomplete ="email" id="email" name="email" required>
+              
+              <fieldset>
+                  <legend>Preferred method of notification</legend>
+                  <label for="contact_phone" class = "radio">
+                      <span class="radio_input">
+                      <input id="contact_phone" type="radio" name="contact" value="Phone">
+                      <span class="radio_control"></span>
+                      </span>
+                      <span class="radio_label">Phone</span>
+                  </label>
+                  <label for="contact_email" class="radio">
+                      <span class="radio_input"></span>
+                  <input id="contact_email" type="radio" name="contact" value="email">
+                  <span class="radio_control"></span>
+                  <span class="radio_label">Email</span>
+              </label>
+              </fieldset>
+              <label for="comments">Feedback/Suggestions</label>
+              <textarea id="comments"></textarea>
+              <input type="submit" id="mySubmit">
+          </form>
+          <p>Be the first to know the latest news updates on the draft, players, games, and other related news to the 49ERS. Fill out this form and sign up for free today! We would also love to hear your feedback and suggestions on our updates, tell us what you'd like to see in 49ers News!</p>
+          <img src="Assets\George KIttle, info section photo.jpg" alt="George kittle posing with three fingers pointed down">
+      </section>
+      <section id="gameSect">
+          <h2>Guess a Number!</h2>
+          <form id="game" action="" method="">
+            <label for="numGuess">Enter a Number Between 1 and 10:</label>
+            <span class="message">Please enter a number from 1 to 10</span>
+            <input type="number" name="numGuess" id="numGuess">
+            <input type="submit" name="guessGame" id="guessGame" value="Play the Game!">
+          </form>
+          <div>
+          <p id="display">Try to win a 25% off coupon for the 49er team shop right here! Take a guess between 1-10, guess the right number and win the coupon!</p>
+          <p id="gameOutput">Output</p>
+          </div>
+      </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy2026 Daniel Cox</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
 </html>
