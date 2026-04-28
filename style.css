@@ -12,8 +12,8 @@
     --wht:#F5F5F5;
     --red:#aa0000;
     --black:#000000;
-    --grey:#4C4C4C;
-    --gold:#c8aa76;
+    --grey:#1F1F1F;
+    --gold:#b3995d;
 }
 
 /*GLOBAL STYLES*/
@@ -21,21 +21,19 @@ body{
 	line-height: 1.5;
 	margin: 0;
 	font-family: "inter";
-
+	background-color: white;
+	color: black;
 
 }
 body.dark{
-	
+	background-color: var(--grey);
+	color: white;
 }
-.message{
-	display: none;
-}
+
 .error{
-	display: none;
+	border-color: var(--red);
 }
-.errorInput{
-	
-}
+
 #mainphoto{
 	display: block;
 	width: 100%;
@@ -70,7 +68,7 @@ header{
 	background-color: var(--red);
 	border: var(--grey);
 	border-bottom: 2px solid;
-	box-shadow: 0px 0px 5px 0px;
+	box-shadow: 0px 0px 5px 0px black;
 	height: 90px
 }
 
@@ -150,10 +148,10 @@ display: block;
 #awaySchedule{
 	grid-column: 3;
 }
-#merch{
+#news{
 	border-bottom: 5px solid var(--black);
 }
-#merch h2{
+#news h2{
 	text-align: center;
 }
 .active{
@@ -163,37 +161,23 @@ display: block;
 	gap: 1rem;
 	padding-top: 0;
 }
-#buy {
-	grid-column: 2;
-	position: absolute;
-	bottom: 10rem;
-}
-#buy button{
-	padding: 30px 60px;
-	border: 2px solid black;
-	border-radius: 5px;
-	font-family: "inter", sans-serif;
 
-}
-#buy button:hover{
-	background-color: black;
-	color: white;
-}
+
 .active img, .active h3{
-	width: 500px;
+	width: 700px;
 	grid-column: 1/2;
 	position: relative;
 	left: 8rem;
 }
 
 .active img{
-	box-shadow: 5px 5px 10px ;
+	box-shadow: 5px 5px 10px black;
 }
 .active p{
 	grid-column: 2;
-	width: 80%;
+	width: 90%;
 	position: relative;
-	right: 15rem;
+	
 }
 .hidden{
     display: none;
@@ -279,11 +263,16 @@ display: block;
 	position: relative;
 	justify-self: center;
 }
-#formSect form{
+#signUp{
 	padding: 0.5rem;
+  max-width: 250px;
 }
-#formSect label{
+label{
 	width: 100%;
+	display: block;
+}
+.error{
+	border-color: 2px solid var(--red);
 }
 .required{
 	display: inline-block;
@@ -316,7 +305,9 @@ textarea{
 	font-size: 1.1em;
 	background-color: var(--wht);
 	border: 2px solid var(--black);
-	box-shadow: 2px 2px 10px;
+	box-shadow: 2px 2px 10px black;
+	color: #000000;
+	max-width: 350px;
 }
 
 #signUp fieldset{
@@ -343,6 +334,14 @@ textarea{
 	background-color: white;
 	border: 2px solid var(--black);
 	color: var(--black);
+}
+#error1, #error2, #error3, #error4, #error5{
+	color: var(--red);
+}
+  
+
+#confirm{
+	color: #000000;
 }
 
 #formSect p{
@@ -386,6 +385,9 @@ textarea{
 	left: 80px;
 	font-family: "inter", sans-serif;
 	
+}
+#notGuess{
+	color: var(--red);
 }
 #guessGame:hover{
 background-color: black;
