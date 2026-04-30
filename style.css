@@ -46,7 +46,7 @@ header{
 	position: sticky;
 	top: 0;
 	z-index: 1000;
-	padding-left: 150px;
+	justify-content: center;
 }
 #logo{
 	height: 80px;
